@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "SRT Finder",
+  "name": "SubSniffer Pro",
   "version": "1.0",
-  "description": "Find and download subtitle files",
+  "description": "Finds VTT and SRT files on any page.",
   "permissions": [
     "webRequest",
-    "downloads",
-    "storage"
+    "storage",
+    "activeTab"
   ],
   "host_permissions": [
     "<all_urls>"
